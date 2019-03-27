@@ -45,16 +45,12 @@ In addition we wanted to make this program customizable for other companies. A c
 
 ### Customer Support Tool
 
-![dialog for customers](share/screenshots/customer-window.png)
-
 From the customer perspective the software is as simple as possible. Only a hostname / IP address and port number has to be provided in order to share the screen with the support staff. If the customer uses multiple monitors, he also might select which screen he likes to share.
 
 A company, that offers remote support, can create its custom preconfigured build of this software, that provides all necessary settings by default. In this case the customer will just have to click the *Connect* button after starting the application. According to our goal this is the **easiest solution possible** from the customer perspective.
 
 
 ### Staff Support Tool
-
-![dialog for support staff](share/screenshots/staff-window.png)
 
 At minimum the support staff only has to provide a port number, on which the customer will connect. If the customer is connecting through the internet, SSL encryption is recommended. In order to avoid problems with port forwarding in the local router, the support staff might also enable SSH tunneling (SSH remote port forwarding).
 
